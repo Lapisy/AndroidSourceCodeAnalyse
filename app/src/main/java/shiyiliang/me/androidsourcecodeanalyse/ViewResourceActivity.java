@@ -11,5 +11,6 @@ public class ViewResourceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_resource);
 
+        //test github
     }
 }
