@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <com.hzn.easypickerview.EasyPickerView
+        <shiyiliang.me.androidsourcecodeanalyse.easypickview.EasyPickerView
             android:id="@+id/epv_h"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
             android:textColor="#4aa4a4"
             android:textSize="20sp" />
 
-        <com.hzn.easypickerview.EasyPickerView
+        <shiyiliang.me.androidsourcecodeanalyse.easypickview.EasyPickerView
             android:id="@+id/epv_m"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
