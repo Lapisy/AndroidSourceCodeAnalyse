@@ -7,10 +7,15 @@
     android:orientation="vertical"
     tools:context="shiyiliang.me.androidsourcecodeanalyse.MainActivity">
 
-   <Button
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:onClick="viewResource"
-       android:text="view自定义控件"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="viewResource"
+        android:text="view自定义控件" />
 
+    <Button
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="easypickview滚轮控件" />
 </LinearLayout>

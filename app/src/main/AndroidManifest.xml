@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ViewResourceActivity"></activity>
+        <activity android:name=".easypickview.MainActivity"/>
+        <activity android:name=".easypickview.OtherActivity"/>
     </application>
 
 </manifest>

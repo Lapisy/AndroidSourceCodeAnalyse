@@ -14,9 +14,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        findViewById(R.id.two).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, shiyiliang.me.androidsourcecodeanalyse.easypickview.MainActivity.class));
+            }
+        });
 
     }
     public void viewResource(View v){
         startActivity(new Intent(this,ViewResourceActivity.class));
     }
+//    public void picView(View v){
+//        startActivity(new Intent(this, shiyiliang.me.androidsourcecodeanalyse.easypickview.MainActivity.class));
+//    }
 }
