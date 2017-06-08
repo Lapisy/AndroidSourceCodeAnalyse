@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import shiyiliang.me.androidsourcecodeanalyse.retrofit.RetrofitMainActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -28,4 +30,8 @@ public class MainActivity extends AppCompatActivity {
 //    public void picView(View v){
 //        startActivity(new Intent(this, shiyiliang.me.androidsourcecodeanalyse.easypickview.MainActivity.class));
 //    }
+
+    public void retrofitLearn(View v){
+        startActivity(new Intent(this, RetrofitMainActivity.class));
+    }
 }
