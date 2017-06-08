@@ -36,6 +36,7 @@ public class RetrofitMainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         APIStore apiStore = retrofit.create(APIStore.class);
+        //
         final Observable<ResponseBody> string = apiStore.getString("北京");
         string.subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
