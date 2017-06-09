@@ -20,7 +20,8 @@
         <activity android:name=".ViewResourceActivity" />
         <activity android:name=".easypickview.MainActivity" />
         <activity android:name=".easypickview.OtherActivity" />
-        <activity android:name=".retrofit.RetrofitMainActivity"></activity>
+        <activity android:name=".retrofit.RetrofitMainActivity" />
+        <activity android:name=".rxjava.RxJavaMainActivity"></activity>
     </application>
 
 </manifest>

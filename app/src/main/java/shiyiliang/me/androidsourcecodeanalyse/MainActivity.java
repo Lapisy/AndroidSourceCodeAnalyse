@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import shiyiliang.me.androidsourcecodeanalyse.rxjava.RxJavaMainActivity;
+
 import shiyiliang.me.androidsourcecodeanalyse.retrofit.RetrofitMainActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,5 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void retrofitLearn(View v){
         startActivity(new Intent(this, RetrofitMainActivity.class));
+    }
+
+    public void rxjavaLearn(View v){
+        startActivity(new Intent(MainActivity.this, RxJavaMainActivity.class));
     }
 }
